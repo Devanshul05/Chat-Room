@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    color: white;
+    background: #1c1c1d;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+b {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.pb-3 {
+    padding: 0.5rem!important;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.anyClass {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+/* .main-box {
+    background-color: white;
+    filter: blur(8px);
+    z-index: 1;
+}
+
+.main-content {
+    z-index: 2;
+} */
+
+span button {
+    display: inline-block;
+}
+#submitmsg {
+    float: right;
+    padding: 9px;
+    margin-top: -49px;
+    background-color: #fff;
+    border: 3px solid #7751ff;
+    border-radius: 2rem;
+}
+
+#submitmsg:hover {
+    color: #fff;
+    /* background-color: #7751ff; */
+    background-color: #292342;
+}
+
+#nav-chat {
+    color: #fff;
+}
+
+#nav-logout {
+    color: #fff !important;
+}
+
+#usermsg {
+    border: none;
+    -webkit-appearance: none!important;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 50px;
+    width: 690px;
+}
